@@ -1,0 +1,135 @@
+@media screen and (min-width:600px) and (max-width:960px){
+    
+
+body { 
+    background-image: linear-gradient(35deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+h1, h2, h3{
+    font-family: "Montserrat";
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2.2rem;
+}
+
+p{
+    max-width: 70ch;
+    line-height: 1.5;
+}
+
+header{
+    height: 65vh;
+
+    background-image: url(assets/img/studentsbg.png);
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+
+}
+header div{
+
+    box-sizing: border-box;
+    position: relative;
+    background-color: #c5192d;
+    display: inline-block;
+    color: white;
+    top:50%;
+    transform: translateY(-50%);
+    margin-top: 4rem;
+    width: 85vw;
+    padding: 2rem 2rem 0rem 2rem;
+   
+}
+header p{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+main{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px 0px  darkgray;
+    background-color: whitesmoke;
+    margin: 30rem auto 0;
+    width: 85vw;
+    margin-top: 7rem;
+}
+
+article{
+    box-sizing: border-box;
+    padding: 2rem;
+    margin: 0 auto;
+}
+article img {
+    vertical-align: top;    
+}
+
+article img, article div{
+    display: inline-block;
+    width: 45%;
+}
+
+article img:nth-child(2), article div:nth-child(2){
+    left:10%;
+    position: relative;
+}
+
+footer{
+    box-sizing: border-box;
+    color: white;
+    background-color: #c5192d;
+    width: 85vw;
+    margin: 2rem auto 0;
+    padding: 1rem;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+
+#intro-container{
+    background-image: linear-gradient(90deg,#c5192d 50%,whitesmoke 50%);
+}
+#intro-container ul{
+    list-style-type: none;
+    padding: 0;
+}
+#intro-container li{
+    margin: 1rem;
+}
+#intro-container h2{
+    position: relative;
+    bottom: 2rem;
+}
+#intro-container p{
+    position: relative;
+    bottom: 2rem;
+}
+#intro-container li:nth-child(1)::before{
+    content: "\1F64C";
+    margin: 1rem 1rem 0rem;
+    width: 1rem;
+}
+#intro-container li:nth-child(2)::before{
+    content: "\1F3EB";
+    margin: 1rem 1rem 0rem;
+    width: 1rem;
+}
+
+#intro-container li:nth-child(3)::before{
+    content: "\1F4DA";
+    margin: 1rem 1rem 0rem;
+    width: 1rem;
+}
+
+main article:nth-child(2){
+    border-bottom: 0.1px solid lightgray;
+}
+}
